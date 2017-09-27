@@ -1,0 +1,9 @@
+from flask import Flask
+app = flak(__name__)
+
+@app.rout('/')
+def hello_world():
+  return "hello world !"
+
+if name == "__main__":
+  app.run()
