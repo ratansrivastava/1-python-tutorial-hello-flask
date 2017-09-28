@@ -9,3 +9,5 @@ def hello_admin():
  def hello_guest():
   return "Hello %s " %guest
   
+if __name__ == '__main()__':
+  app.run(host="0.0.0.0",port=80,debug=True)
