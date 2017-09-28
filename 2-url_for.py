@@ -5,7 +5,7 @@ app = Flask(__name__)
 def hello_admin():
   return "Hello admin"
   
- @app.route('/guest/<guest>/')
+ @app.route('/guest/<guest>')
  def hello_guest():
   return "Hello %s " %guest
   
